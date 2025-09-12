@@ -1,0 +1,782 @@
+Material_ID,Material_Name,Material_Class,Base_Fiber,Coating_Type,Weave_Pattern,Test_Environment,Areal_Density_gm2,Thickness_mm,Outgassing_TML_percent,Outgassing_CVCM_percent,Flammability_Rating,Thermal_Conductivity_Through_WmK,Thermal_Conductivity_InPlane_WmK,Tensile_Strength_MPa,Tensile_Modulus_GPa,Bulk_Density_kgm3,Max_Service_Temp_C,k_-100C_WmK,k_0C_WmK,k_23C_WmK,k_150C_WmK,k_200C_WmK,Notes,Data_Source
+FAB-COTTON-PL-200,Cotton fabric,Textile,Cotton,,Plain,Air,150.0,0.2,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-PL-500,Cotton fabric,Textile,Cotton,,Plain,Air,375.0,0.5,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-PL-1000,Cotton fabric,Textile,Cotton,,Plain,Air,750.0,1.0,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-TW-200,Cotton fabric,Textile,Cotton,,Twill,Air,180.0,0.2,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-TW-500,Cotton fabric,Textile,Cotton,,Twill,Air,450.0,0.5,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-TW-1000,Cotton fabric,Textile,Cotton,,Twill,Air,900.0,1.0,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-SA-200,Cotton fabric,Textile,Cotton,,Satin,Air,200.0,0.2,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-SA-500,Cotton fabric,Textile,Cotton,,Satin,Air,500.0,0.5,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-SA-1000,Cotton fabric,Textile,Cotton,,Satin,Air,1000.0,1.0,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-BA-200,Cotton fabric,Textile,Cotton,,Basket,Air,220.0,0.2,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-BA-500,Cotton fabric,Textile,Cotton,,Basket,Air,550.0,0.5,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-BA-1000,Cotton fabric,Textile,Cotton,,Basket,Air,1100.0,1.0,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-RI-200,Cotton fabric,Textile,Cotton,,Ripstop,Air,160.0,0.2,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-RI-500,Cotton fabric,Textile,Cotton,,Ripstop,Air,400.0,0.5,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-COTTON-RI-1000,Cotton fabric,Textile,Cotton,,Ripstop,Air,800.0,1.0,,,Fail,0.06,,,,1520,,,,0.06,,,Representative values; verify per supplier grade.,Thermtest; general refs
+FAB-WOOL-PL-200,Wool fabric,Textile,Wool,,Plain,Air,150.0,0.2,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-PL-500,Wool fabric,Textile,Wool,,Plain,Air,375.0,0.5,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-PL-1000,Wool fabric,Textile,Wool,,Plain,Air,750.0,1.0,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-TW-200,Wool fabric,Textile,Wool,,Twill,Air,180.0,0.2,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-TW-500,Wool fabric,Textile,Wool,,Twill,Air,450.0,0.5,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-TW-1000,Wool fabric,Textile,Wool,,Twill,Air,900.0,1.0,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-SA-200,Wool fabric,Textile,Wool,,Satin,Air,200.0,0.2,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-SA-500,Wool fabric,Textile,Wool,,Satin,Air,500.0,0.5,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-SA-1000,Wool fabric,Textile,Wool,,Satin,Air,1000.0,1.0,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-BA-200,Wool fabric,Textile,Wool,,Basket,Air,220.0,0.2,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-BA-500,Wool fabric,Textile,Wool,,Basket,Air,550.0,0.5,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-BA-1000,Wool fabric,Textile,Wool,,Basket,Air,1100.0,1.0,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-RI-200,Wool fabric,Textile,Wool,,Ripstop,Air,160.0,0.2,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-RI-500,Wool fabric,Textile,Wool,,Ripstop,Air,400.0,0.5,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-WOOL-RI-1000,Wool fabric,Textile,Wool,,Ripstop,Air,800.0,1.0,,,Self-extinguishing,0.035,,,,1307,,,,0.035,,,Representative values; verify per supplier grade.,Wool insulation refs
+FAB-SILK-PL-200,Silk fabric,Textile,Silk,,Plain,Air,150.0,0.2,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-PL-500,Silk fabric,Textile,Silk,,Plain,Air,375.0,0.5,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-PL-1000,Silk fabric,Textile,Silk,,Plain,Air,750.0,1.0,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-TW-200,Silk fabric,Textile,Silk,,Twill,Air,180.0,0.2,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-TW-500,Silk fabric,Textile,Silk,,Twill,Air,450.0,0.5,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-TW-1000,Silk fabric,Textile,Silk,,Twill,Air,900.0,1.0,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-SA-200,Silk fabric,Textile,Silk,,Satin,Air,200.0,0.2,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-SA-500,Silk fabric,Textile,Silk,,Satin,Air,500.0,0.5,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-SA-1000,Silk fabric,Textile,Silk,,Satin,Air,1000.0,1.0,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-BA-200,Silk fabric,Textile,Silk,,Basket,Air,220.0,0.2,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-BA-500,Silk fabric,Textile,Silk,,Basket,Air,550.0,0.5,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-BA-1000,Silk fabric,Textile,Silk,,Basket,Air,1100.0,1.0,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-RI-200,Silk fabric,Textile,Silk,,Ripstop,Air,160.0,0.2,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-RI-500,Silk fabric,Textile,Silk,,Ripstop,Air,400.0,0.5,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-SILK-RI-1000,Silk fabric,Textile,Silk,,Ripstop,Air,800.0,1.0,,,Fail,0.083,,,,1340,,,,0.083,,,Representative values; verify per supplier grade.,Silk refs
+FAB-FLAX/LINEN-PL-200,Flax/Linen fabric,Textile,Flax/Linen,,Plain,Air,150.0,0.2,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-PL-500,Flax/Linen fabric,Textile,Flax/Linen,,Plain,Air,375.0,0.5,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-PL-1000,Flax/Linen fabric,Textile,Flax/Linen,,Plain,Air,750.0,1.0,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-TW-200,Flax/Linen fabric,Textile,Flax/Linen,,Twill,Air,180.0,0.2,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-TW-500,Flax/Linen fabric,Textile,Flax/Linen,,Twill,Air,450.0,0.5,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-TW-1000,Flax/Linen fabric,Textile,Flax/Linen,,Twill,Air,900.0,1.0,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-SA-200,Flax/Linen fabric,Textile,Flax/Linen,,Satin,Air,200.0,0.2,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-SA-500,Flax/Linen fabric,Textile,Flax/Linen,,Satin,Air,500.0,0.5,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-SA-1000,Flax/Linen fabric,Textile,Flax/Linen,,Satin,Air,1000.0,1.0,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-BA-200,Flax/Linen fabric,Textile,Flax/Linen,,Basket,Air,220.0,0.2,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-BA-500,Flax/Linen fabric,Textile,Flax/Linen,,Basket,Air,550.0,0.5,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-BA-1000,Flax/Linen fabric,Textile,Flax/Linen,,Basket,Air,1100.0,1.0,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-RI-200,Flax/Linen fabric,Textile,Flax/Linen,,Ripstop,Air,160.0,0.2,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-RI-500,Flax/Linen fabric,Textile,Flax/Linen,,Ripstop,Air,400.0,0.5,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-FLAX/LINEN-RI-1000,Flax/Linen fabric,Textile,Flax/Linen,,Ripstop,Air,800.0,1.0,,,Fail,0.04,,,,1500,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-PL-200,Hemp fabric,Textile,Hemp,,Plain,Air,150.0,0.2,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-PL-500,Hemp fabric,Textile,Hemp,,Plain,Air,375.0,0.5,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-PL-1000,Hemp fabric,Textile,Hemp,,Plain,Air,750.0,1.0,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-TW-200,Hemp fabric,Textile,Hemp,,Twill,Air,180.0,0.2,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-TW-500,Hemp fabric,Textile,Hemp,,Twill,Air,450.0,0.5,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-TW-1000,Hemp fabric,Textile,Hemp,,Twill,Air,900.0,1.0,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-SA-200,Hemp fabric,Textile,Hemp,,Satin,Air,200.0,0.2,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-SA-500,Hemp fabric,Textile,Hemp,,Satin,Air,500.0,0.5,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-SA-1000,Hemp fabric,Textile,Hemp,,Satin,Air,1000.0,1.0,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-BA-200,Hemp fabric,Textile,Hemp,,Basket,Air,220.0,0.2,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-BA-500,Hemp fabric,Textile,Hemp,,Basket,Air,550.0,0.5,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-BA-1000,Hemp fabric,Textile,Hemp,,Basket,Air,1100.0,1.0,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-RI-200,Hemp fabric,Textile,Hemp,,Ripstop,Air,160.0,0.2,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-RI-500,Hemp fabric,Textile,Hemp,,Ripstop,Air,400.0,0.5,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-HEMP-RI-1000,Hemp fabric,Textile,Hemp,,Ripstop,Air,800.0,1.0,,,Fail,0.04,,,,1480,,,,0.04,,,Representative values; verify per supplier grade.,Textile handbooks
+FAB-BAMBOO_VISCOSE-PL-200,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Plain,Air,150.0,0.2,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-PL-500,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Plain,Air,375.0,0.5,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-PL-1000,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Plain,Air,750.0,1.0,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-TW-200,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Twill,Air,180.0,0.2,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-TW-500,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Twill,Air,450.0,0.5,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-TW-1000,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Twill,Air,900.0,1.0,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-SA-200,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Satin,Air,200.0,0.2,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-SA-500,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Satin,Air,500.0,0.5,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-SA-1000,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Satin,Air,1000.0,1.0,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-BA-200,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Basket,Air,220.0,0.2,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-BA-500,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Basket,Air,550.0,0.5,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-BA-1000,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Basket,Air,1100.0,1.0,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-RI-200,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Ripstop,Air,160.0,0.2,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-RI-500,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Ripstop,Air,400.0,0.5,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-BAMBOO_VISCOSE-RI-1000,Bamboo Viscose fabric,Textile,Bamboo Viscose,,Ripstop,Air,800.0,1.0,,,Fail,0.08,,,,1510,,,,0.08,,,Representative values; verify per supplier grade.,Viscose refs
+FAB-PET-PL-200,PET fabric,Textile,PET,,Plain,Air,150.0,0.2,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-PL-500,PET fabric,Textile,PET,,Plain,Air,375.0,0.5,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-PL-1000,PET fabric,Textile,PET,,Plain,Air,750.0,1.0,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-TW-200,PET fabric,Textile,PET,,Twill,Air,180.0,0.2,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-TW-500,PET fabric,Textile,PET,,Twill,Air,450.0,0.5,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-TW-1000,PET fabric,Textile,PET,,Twill,Air,900.0,1.0,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-SA-200,PET fabric,Textile,PET,,Satin,Air,200.0,0.2,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-SA-500,PET fabric,Textile,PET,,Satin,Air,500.0,0.5,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-SA-1000,PET fabric,Textile,PET,,Satin,Air,1000.0,1.0,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-BA-200,PET fabric,Textile,PET,,Basket,Air,220.0,0.2,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-BA-500,PET fabric,Textile,PET,,Basket,Air,550.0,0.5,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-BA-1000,PET fabric,Textile,PET,,Basket,Air,1100.0,1.0,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-RI-200,PET fabric,Textile,PET,,Ripstop,Air,160.0,0.2,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-RI-500,PET fabric,Textile,PET,,Ripstop,Air,400.0,0.5,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PET-RI-1000,PET fabric,Textile,PET,,Ripstop,Air,800.0,1.0,,,Pass,0.181,,,,1390,,,,0.181,,,Representative values; verify per supplier grade.,MatWeb/PET
+FAB-PA6-PL-200,PA6 fabric,Textile,PA6,,Plain,Air,150.0,0.2,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-PL-500,PA6 fabric,Textile,PA6,,Plain,Air,375.0,0.5,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-PL-1000,PA6 fabric,Textile,PA6,,Plain,Air,750.0,1.0,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-TW-200,PA6 fabric,Textile,PA6,,Twill,Air,180.0,0.2,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-TW-500,PA6 fabric,Textile,PA6,,Twill,Air,450.0,0.5,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-TW-1000,PA6 fabric,Textile,PA6,,Twill,Air,900.0,1.0,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-SA-200,PA6 fabric,Textile,PA6,,Satin,Air,200.0,0.2,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-SA-500,PA6 fabric,Textile,PA6,,Satin,Air,500.0,0.5,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-SA-1000,PA6 fabric,Textile,PA6,,Satin,Air,1000.0,1.0,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-BA-200,PA6 fabric,Textile,PA6,,Basket,Air,220.0,0.2,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-BA-500,PA6 fabric,Textile,PA6,,Basket,Air,550.0,0.5,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-BA-1000,PA6 fabric,Textile,PA6,,Basket,Air,1100.0,1.0,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-RI-200,PA6 fabric,Textile,PA6,,Ripstop,Air,160.0,0.2,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-RI-500,PA6 fabric,Textile,PA6,,Ripstop,Air,400.0,0.5,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA6-RI-1000,PA6 fabric,Textile,PA6,,Ripstop,Air,800.0,1.0,,,Fail,0.26,,,,1120,,,,0.26,,,Representative values; verify per supplier grade.,Nylon 6 refs
+FAB-PA66-PL-200,PA66 fabric,Textile,PA66,,Plain,Air,150.0,0.2,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-PL-500,PA66 fabric,Textile,PA66,,Plain,Air,375.0,0.5,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-PL-1000,PA66 fabric,Textile,PA66,,Plain,Air,750.0,1.0,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-TW-200,PA66 fabric,Textile,PA66,,Twill,Air,180.0,0.2,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-TW-500,PA66 fabric,Textile,PA66,,Twill,Air,450.0,0.5,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-TW-1000,PA66 fabric,Textile,PA66,,Twill,Air,900.0,1.0,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-SA-200,PA66 fabric,Textile,PA66,,Satin,Air,200.0,0.2,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-SA-500,PA66 fabric,Textile,PA66,,Satin,Air,500.0,0.5,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-SA-1000,PA66 fabric,Textile,PA66,,Satin,Air,1000.0,1.0,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-BA-200,PA66 fabric,Textile,PA66,,Basket,Air,220.0,0.2,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-BA-500,PA66 fabric,Textile,PA66,,Basket,Air,550.0,0.5,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-BA-1000,PA66 fabric,Textile,PA66,,Basket,Air,1100.0,1.0,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-RI-200,PA66 fabric,Textile,PA66,,Ripstop,Air,160.0,0.2,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-RI-500,PA66 fabric,Textile,PA66,,Ripstop,Air,400.0,0.5,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PA66-RI-1000,PA66 fabric,Textile,PA66,,Ripstop,Air,800.0,1.0,,,Fail,0.25,,,,1140,,,,0.25,,,Representative values; verify per supplier grade.,"Nylon 6,6 refs"
+FAB-PP-PL-200,PP fabric,Textile,PP,,Plain,Air,150.0,0.2,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-PL-500,PP fabric,Textile,PP,,Plain,Air,375.0,0.5,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-PL-1000,PP fabric,Textile,PP,,Plain,Air,750.0,1.0,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-TW-200,PP fabric,Textile,PP,,Twill,Air,180.0,0.2,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-TW-500,PP fabric,Textile,PP,,Twill,Air,450.0,0.5,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-TW-1000,PP fabric,Textile,PP,,Twill,Air,900.0,1.0,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-SA-200,PP fabric,Textile,PP,,Satin,Air,200.0,0.2,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-SA-500,PP fabric,Textile,PP,,Satin,Air,500.0,0.5,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-SA-1000,PP fabric,Textile,PP,,Satin,Air,1000.0,1.0,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-BA-200,PP fabric,Textile,PP,,Basket,Air,220.0,0.2,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-BA-500,PP fabric,Textile,PP,,Basket,Air,550.0,0.5,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-BA-1000,PP fabric,Textile,PP,,Basket,Air,1100.0,1.0,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-RI-200,PP fabric,Textile,PP,,Ripstop,Air,160.0,0.2,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-RI-500,PP fabric,Textile,PP,,Ripstop,Air,400.0,0.5,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PP-RI-1000,PP fabric,Textile,PP,,Ripstop,Air,800.0,1.0,,,Fail,0.28,,,,910,,,,0.28,,,Representative values; verify per supplier grade.,PP refs
+FAB-PBT-PL-200,PBT fabric,Textile,PBT,,Plain,Air,150.0,0.2,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-PL-500,PBT fabric,Textile,PBT,,Plain,Air,375.0,0.5,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-PL-1000,PBT fabric,Textile,PBT,,Plain,Air,750.0,1.0,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-TW-200,PBT fabric,Textile,PBT,,Twill,Air,180.0,0.2,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-TW-500,PBT fabric,Textile,PBT,,Twill,Air,450.0,0.5,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-TW-1000,PBT fabric,Textile,PBT,,Twill,Air,900.0,1.0,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-SA-200,PBT fabric,Textile,PBT,,Satin,Air,200.0,0.2,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-SA-500,PBT fabric,Textile,PBT,,Satin,Air,500.0,0.5,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-SA-1000,PBT fabric,Textile,PBT,,Satin,Air,1000.0,1.0,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-BA-200,PBT fabric,Textile,PBT,,Basket,Air,220.0,0.2,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-BA-500,PBT fabric,Textile,PBT,,Basket,Air,550.0,0.5,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-BA-1000,PBT fabric,Textile,PBT,,Basket,Air,1100.0,1.0,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-RI-200,PBT fabric,Textile,PBT,,Ripstop,Air,160.0,0.2,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-RI-500,PBT fabric,Textile,PBT,,Ripstop,Air,400.0,0.5,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PBT-RI-1000,PBT fabric,Textile,PBT,,Ripstop,Air,800.0,1.0,,,Fail,0.25,,,,1300,,,,0.25,,,Representative values; verify per supplier grade.,PBT refs
+FAB-PEN-PL-200,PEN fabric,Textile,PEN,,Plain,Air,150.0,0.2,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-PL-500,PEN fabric,Textile,PEN,,Plain,Air,375.0,0.5,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-PL-1000,PEN fabric,Textile,PEN,,Plain,Air,750.0,1.0,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-TW-200,PEN fabric,Textile,PEN,,Twill,Air,180.0,0.2,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-TW-500,PEN fabric,Textile,PEN,,Twill,Air,450.0,0.5,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-TW-1000,PEN fabric,Textile,PEN,,Twill,Air,900.0,1.0,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-SA-200,PEN fabric,Textile,PEN,,Satin,Air,200.0,0.2,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-SA-500,PEN fabric,Textile,PEN,,Satin,Air,500.0,0.5,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-SA-1000,PEN fabric,Textile,PEN,,Satin,Air,1000.0,1.0,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-BA-200,PEN fabric,Textile,PEN,,Basket,Air,220.0,0.2,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-BA-500,PEN fabric,Textile,PEN,,Basket,Air,550.0,0.5,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-BA-1000,PEN fabric,Textile,PEN,,Basket,Air,1100.0,1.0,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-RI-200,PEN fabric,Textile,PEN,,Ripstop,Air,160.0,0.2,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-RI-500,PEN fabric,Textile,PEN,,Ripstop,Air,400.0,0.5,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+FAB-PEN-RI-1000,PEN fabric,Textile,PEN,,Ripstop,Air,800.0,1.0,,,Pass,0.22,,,,1360,,,,0.22,,,Representative values; verify per supplier grade.,Teonex/PEN
+HP-KEVLAR_29-PL-50,Kevlar 29 fabric,Textile,Kevlar 29,,Plain,Air,150.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PL-100,Kevlar 29 fabric,Textile,Kevlar 29,,Plain,Air,150.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PL-200,Kevlar 29 fabric,Textile,Kevlar 29,,Plain,Air,150.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PL-500,Kevlar 29 fabric,Textile,Kevlar 29,,Plain,Air,150.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-TW-50,Kevlar 29 fabric,Textile,Kevlar 29,,Twill,Air,180.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-TW-100,Kevlar 29 fabric,Textile,Kevlar 29,,Twill,Air,180.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-TW-200,Kevlar 29 fabric,Textile,Kevlar 29,,Twill,Air,180.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-TW-500,Kevlar 29 fabric,Textile,Kevlar 29,,Twill,Air,180.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-RI-50,Kevlar 29 fabric,Textile,Kevlar 29,,Ripstop,Air,160.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-RI-100,Kevlar 29 fabric,Textile,Kevlar 29,,Ripstop,Air,160.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-RI-200,Kevlar 29 fabric,Textile,Kevlar 29,,Ripstop,Air,160.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-RI-500,Kevlar 29 fabric,Textile,Kevlar 29,,Ripstop,Air,160.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-UD-50,Kevlar 29 fabric,Textile,Kevlar 29,,UD,Air,120.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-UD-100,Kevlar 29 fabric,Textile,Kevlar 29,,UD,Air,120.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-UD-200,Kevlar 29 fabric,Textile,Kevlar 29,,UD,Air,120.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-UD-500,Kevlar 29 fabric,Textile,Kevlar 29,,UD,Air,120.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-NO-50,Kevlar 29 fabric,Textile,Kevlar 29,,Nonwoven,Air,100.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-NO-100,Kevlar 29 fabric,Textile,Kevlar 29,,Nonwoven,Air,100.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-NO-200,Kevlar 29 fabric,Textile,Kevlar 29,,Nonwoven,Air,100.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-NO-500,Kevlar 29 fabric,Textile,Kevlar 29,,Nonwoven,Air,100.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PA-50,Kevlar 29 fabric,Textile,Kevlar 29,,Paper,Air,80.0,0.05,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PA-100,Kevlar 29 fabric,Textile,Kevlar 29,,Paper,Air,80.0,0.1,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PA-200,Kevlar 29 fabric,Textile,Kevlar 29,,Paper,Air,80.0,0.2,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_29-PA-500,Kevlar 29 fabric,Textile,Kevlar 29,,Paper,Air,80.0,0.5,,,Pass,0.0812,,3000,70,1440,,,,0.0812,,,Representative values; verify per supplier grade.,NIST; DuPont
+HP-KEVLAR_49-PL-50,Kevlar 49 fabric,Textile,Kevlar 49,,Plain,Air,150.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PL-100,Kevlar 49 fabric,Textile,Kevlar 49,,Plain,Air,150.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PL-200,Kevlar 49 fabric,Textile,Kevlar 49,,Plain,Air,150.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PL-500,Kevlar 49 fabric,Textile,Kevlar 49,,Plain,Air,150.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-TW-50,Kevlar 49 fabric,Textile,Kevlar 49,,Twill,Air,180.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-TW-100,Kevlar 49 fabric,Textile,Kevlar 49,,Twill,Air,180.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-TW-200,Kevlar 49 fabric,Textile,Kevlar 49,,Twill,Air,180.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-TW-500,Kevlar 49 fabric,Textile,Kevlar 49,,Twill,Air,180.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-RI-50,Kevlar 49 fabric,Textile,Kevlar 49,,Ripstop,Air,160.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-RI-100,Kevlar 49 fabric,Textile,Kevlar 49,,Ripstop,Air,160.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-RI-200,Kevlar 49 fabric,Textile,Kevlar 49,,Ripstop,Air,160.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-RI-500,Kevlar 49 fabric,Textile,Kevlar 49,,Ripstop,Air,160.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-UD-50,Kevlar 49 fabric,Textile,Kevlar 49,,UD,Air,120.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-UD-100,Kevlar 49 fabric,Textile,Kevlar 49,,UD,Air,120.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-UD-200,Kevlar 49 fabric,Textile,Kevlar 49,,UD,Air,120.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-UD-500,Kevlar 49 fabric,Textile,Kevlar 49,,UD,Air,120.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-NO-50,Kevlar 49 fabric,Textile,Kevlar 49,,Nonwoven,Air,100.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-NO-100,Kevlar 49 fabric,Textile,Kevlar 49,,Nonwoven,Air,100.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-NO-200,Kevlar 49 fabric,Textile,Kevlar 49,,Nonwoven,Air,100.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-NO-500,Kevlar 49 fabric,Textile,Kevlar 49,,Nonwoven,Air,100.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PA-50,Kevlar 49 fabric,Textile,Kevlar 49,,Paper,Air,80.0,0.05,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PA-100,Kevlar 49 fabric,Textile,Kevlar 49,,Paper,Air,80.0,0.1,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PA-200,Kevlar 49 fabric,Textile,Kevlar 49,,Paper,Air,80.0,0.2,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-KEVLAR_49-PA-500,Kevlar 49 fabric,Textile,Kevlar 49,,Paper,Air,80.0,0.5,,,Pass,0.04,,3000,112,1440,,,,0.04,,,Representative values; verify per supplier grade.,DuPont
+HP-TWARON-PL-50,Twaron fabric,Textile,Twaron,,Plain,Air,150.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PL-100,Twaron fabric,Textile,Twaron,,Plain,Air,150.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PL-200,Twaron fabric,Textile,Twaron,,Plain,Air,150.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PL-500,Twaron fabric,Textile,Twaron,,Plain,Air,150.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-TW-50,Twaron fabric,Textile,Twaron,,Twill,Air,180.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-TW-100,Twaron fabric,Textile,Twaron,,Twill,Air,180.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-TW-200,Twaron fabric,Textile,Twaron,,Twill,Air,180.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-TW-500,Twaron fabric,Textile,Twaron,,Twill,Air,180.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-RI-50,Twaron fabric,Textile,Twaron,,Ripstop,Air,160.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-RI-100,Twaron fabric,Textile,Twaron,,Ripstop,Air,160.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-RI-200,Twaron fabric,Textile,Twaron,,Ripstop,Air,160.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-RI-500,Twaron fabric,Textile,Twaron,,Ripstop,Air,160.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-UD-50,Twaron fabric,Textile,Twaron,,UD,Air,120.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-UD-100,Twaron fabric,Textile,Twaron,,UD,Air,120.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-UD-200,Twaron fabric,Textile,Twaron,,UD,Air,120.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-UD-500,Twaron fabric,Textile,Twaron,,UD,Air,120.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-NO-50,Twaron fabric,Textile,Twaron,,Nonwoven,Air,100.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-NO-100,Twaron fabric,Textile,Twaron,,Nonwoven,Air,100.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-NO-200,Twaron fabric,Textile,Twaron,,Nonwoven,Air,100.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-NO-500,Twaron fabric,Textile,Twaron,,Nonwoven,Air,100.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PA-50,Twaron fabric,Textile,Twaron,,Paper,Air,80.0,0.05,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PA-100,Twaron fabric,Textile,Twaron,,Paper,Air,80.0,0.1,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PA-200,Twaron fabric,Textile,Twaron,,Paper,Air,80.0,0.2,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TWARON-PA-500,Twaron fabric,Textile,Twaron,,Paper,Air,80.0,0.5,,,Pass,0.04,,2800,110,1440,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PL-50,Technora fabric,Textile,Technora,,Plain,Air,150.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PL-100,Technora fabric,Textile,Technora,,Plain,Air,150.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PL-200,Technora fabric,Textile,Technora,,Plain,Air,150.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PL-500,Technora fabric,Textile,Technora,,Plain,Air,150.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-TW-50,Technora fabric,Textile,Technora,,Twill,Air,180.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-TW-100,Technora fabric,Textile,Technora,,Twill,Air,180.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-TW-200,Technora fabric,Textile,Technora,,Twill,Air,180.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-TW-500,Technora fabric,Textile,Technora,,Twill,Air,180.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-RI-50,Technora fabric,Textile,Technora,,Ripstop,Air,160.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-RI-100,Technora fabric,Textile,Technora,,Ripstop,Air,160.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-RI-200,Technora fabric,Textile,Technora,,Ripstop,Air,160.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-RI-500,Technora fabric,Textile,Technora,,Ripstop,Air,160.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-UD-50,Technora fabric,Textile,Technora,,UD,Air,120.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-UD-100,Technora fabric,Textile,Technora,,UD,Air,120.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-UD-200,Technora fabric,Textile,Technora,,UD,Air,120.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-UD-500,Technora fabric,Textile,Technora,,UD,Air,120.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-NO-50,Technora fabric,Textile,Technora,,Nonwoven,Air,100.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-NO-100,Technora fabric,Textile,Technora,,Nonwoven,Air,100.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-NO-200,Technora fabric,Textile,Technora,,Nonwoven,Air,100.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-NO-500,Technora fabric,Textile,Technora,,Nonwoven,Air,100.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PA-50,Technora fabric,Textile,Technora,,Paper,Air,80.0,0.05,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PA-100,Technora fabric,Textile,Technora,,Paper,Air,80.0,0.1,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PA-200,Technora fabric,Textile,Technora,,Paper,Air,80.0,0.2,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-TECHNORA-PA-500,Technora fabric,Textile,Technora,,Paper,Air,80.0,0.5,,,Pass,0.04,,3000,70,1390,,,,0.04,,,Representative values; verify per supplier grade.,Teijin
+HP-NOMEX_410-PL-50,Nomex 410 fabric,Textile,Nomex 410,,Plain,Air,150.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PL-100,Nomex 410 fabric,Textile,Nomex 410,,Plain,Air,150.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PL-200,Nomex 410 fabric,Textile,Nomex 410,,Plain,Air,150.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PL-500,Nomex 410 fabric,Textile,Nomex 410,,Plain,Air,150.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-TW-50,Nomex 410 fabric,Textile,Nomex 410,,Twill,Air,180.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-TW-100,Nomex 410 fabric,Textile,Nomex 410,,Twill,Air,180.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-TW-200,Nomex 410 fabric,Textile,Nomex 410,,Twill,Air,180.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-TW-500,Nomex 410 fabric,Textile,Nomex 410,,Twill,Air,180.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-RI-50,Nomex 410 fabric,Textile,Nomex 410,,Ripstop,Air,160.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-RI-100,Nomex 410 fabric,Textile,Nomex 410,,Ripstop,Air,160.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-RI-200,Nomex 410 fabric,Textile,Nomex 410,,Ripstop,Air,160.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-RI-500,Nomex 410 fabric,Textile,Nomex 410,,Ripstop,Air,160.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-UD-50,Nomex 410 fabric,Textile,Nomex 410,,UD,Air,120.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-UD-100,Nomex 410 fabric,Textile,Nomex 410,,UD,Air,120.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-UD-200,Nomex 410 fabric,Textile,Nomex 410,,UD,Air,120.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-UD-500,Nomex 410 fabric,Textile,Nomex 410,,UD,Air,120.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-NO-50,Nomex 410 fabric,Textile,Nomex 410,,Nonwoven,Air,100.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-NO-100,Nomex 410 fabric,Textile,Nomex 410,,Nonwoven,Air,100.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-NO-200,Nomex 410 fabric,Textile,Nomex 410,,Nonwoven,Air,100.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-NO-500,Nomex 410 fabric,Textile,Nomex 410,,Nonwoven,Air,100.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PA-50,Nomex 410 fabric,Textile,Nomex 410,,Paper,Air,80.0,0.05,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PA-100,Nomex 410 fabric,Textile,Nomex 410,,Paper,Air,80.0,0.1,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PA-200,Nomex 410 fabric,Textile,Nomex 410,,Paper,Air,80.0,0.2,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_410-PA-500,Nomex 410 fabric,Textile,Nomex 410,,Paper,Air,80.0,0.5,2.44,0.05,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PL-50,Nomex 710 fabric,Textile,Nomex 710,,Plain,Air,150.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PL-100,Nomex 710 fabric,Textile,Nomex 710,,Plain,Air,150.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PL-200,Nomex 710 fabric,Textile,Nomex 710,,Plain,Air,150.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PL-500,Nomex 710 fabric,Textile,Nomex 710,,Plain,Air,150.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-TW-50,Nomex 710 fabric,Textile,Nomex 710,,Twill,Air,180.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-TW-100,Nomex 710 fabric,Textile,Nomex 710,,Twill,Air,180.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-TW-200,Nomex 710 fabric,Textile,Nomex 710,,Twill,Air,180.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-TW-500,Nomex 710 fabric,Textile,Nomex 710,,Twill,Air,180.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-RI-50,Nomex 710 fabric,Textile,Nomex 710,,Ripstop,Air,160.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-RI-100,Nomex 710 fabric,Textile,Nomex 710,,Ripstop,Air,160.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-RI-200,Nomex 710 fabric,Textile,Nomex 710,,Ripstop,Air,160.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-RI-500,Nomex 710 fabric,Textile,Nomex 710,,Ripstop,Air,160.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-UD-50,Nomex 710 fabric,Textile,Nomex 710,,UD,Air,120.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-UD-100,Nomex 710 fabric,Textile,Nomex 710,,UD,Air,120.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-UD-200,Nomex 710 fabric,Textile,Nomex 710,,UD,Air,120.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-UD-500,Nomex 710 fabric,Textile,Nomex 710,,UD,Air,120.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-NO-50,Nomex 710 fabric,Textile,Nomex 710,,Nonwoven,Air,100.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-NO-100,Nomex 710 fabric,Textile,Nomex 710,,Nonwoven,Air,100.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-NO-200,Nomex 710 fabric,Textile,Nomex 710,,Nonwoven,Air,100.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-NO-500,Nomex 710 fabric,Textile,Nomex 710,,Nonwoven,Air,100.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PA-50,Nomex 710 fabric,Textile,Nomex 710,,Paper,Air,80.0,0.05,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PA-100,Nomex 710 fabric,Textile,Nomex 710,,Paper,Air,80.0,0.1,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PA-200,Nomex 710 fabric,Textile,Nomex 710,,Paper,Air,80.0,0.2,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-NOMEX_710-PA-500,Nomex 710 fabric,Textile,Nomex 710,,Paper,Air,80.0,0.5,,,Pass,0.11,,,,1100,,,,0.11,,,Representative values; verify per supplier grade.,DuPont
+HP-ZYLON_PBO-PL-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,Plain,Air,150.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PL-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,Plain,Air,150.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PL-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,Plain,Air,150.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PL-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,Plain,Air,150.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-TW-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,Twill,Air,180.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-TW-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,Twill,Air,180.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-TW-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,Twill,Air,180.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-TW-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,Twill,Air,180.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-RI-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,Ripstop,Air,160.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-RI-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,Ripstop,Air,160.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-RI-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,Ripstop,Air,160.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-RI-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,Ripstop,Air,160.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-UD-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,UD,Air,120.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-UD-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,UD,Air,120.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-UD-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,UD,Air,120.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-UD-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,UD,Air,120.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-NO-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,Nonwoven,Air,100.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-NO-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,Nonwoven,Air,100.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-NO-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,Nonwoven,Air,100.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-NO-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,Nonwoven,Air,100.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PA-50,Zylon (PBO) fabric,Textile,Zylon (PBO),,Paper,Air,80.0,0.05,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PA-100,Zylon (PBO) fabric,Textile,Zylon (PBO),,Paper,Air,80.0,0.1,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PA-200,Zylon (PBO) fabric,Textile,Zylon (PBO),,Paper,Air,80.0,0.2,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-ZYLON_PBO-PA-500,Zylon (PBO) fabric,Textile,Zylon (PBO),,Paper,Air,80.0,0.5,,,Pass,0.08,,5800,180,1540,,,,0.08,,,Representative values; verify per supplier grade.,Toyobo
+HP-VECTRAN_LCP-PL-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,Plain,Air,150.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PL-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,Plain,Air,150.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PL-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,Plain,Air,150.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PL-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,Plain,Air,150.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-TW-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,Twill,Air,180.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-TW-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,Twill,Air,180.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-TW-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,Twill,Air,180.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-TW-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,Twill,Air,180.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-RI-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,Ripstop,Air,160.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-RI-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,Ripstop,Air,160.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-RI-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,Ripstop,Air,160.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-RI-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,Ripstop,Air,160.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-UD-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,UD,Air,120.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-UD-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,UD,Air,120.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-UD-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,UD,Air,120.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-UD-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,UD,Air,120.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-NO-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,Nonwoven,Air,100.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-NO-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,Nonwoven,Air,100.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-NO-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,Nonwoven,Air,100.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-NO-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,Nonwoven,Air,100.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PA-50,Vectran (LCP) fabric,Textile,Vectran (LCP),,Paper,Air,80.0,0.05,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PA-100,Vectran (LCP) fabric,Textile,Vectran (LCP),,Paper,Air,80.0,0.1,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PA-200,Vectran (LCP) fabric,Textile,Vectran (LCP),,Paper,Air,80.0,0.2,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-VECTRAN_LCP-PA-500,Vectran (LCP) fabric,Textile,Vectran (LCP),,Paper,Air,80.0,0.5,,,Pass,0.28,,1100,52,1410,,,,0.28,,,Representative values; verify per supplier grade.,Kuraray
+HP-UHMWPE_DYNEEMA-PL-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Plain,Air,150.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PL-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Plain,Air,150.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PL-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Plain,Air,150.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PL-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Plain,Air,150.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-TW-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Twill,Air,180.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-TW-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Twill,Air,180.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-TW-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Twill,Air,180.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-TW-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Twill,Air,180.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-RI-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Ripstop,Air,160.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-RI-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Ripstop,Air,160.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-RI-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Ripstop,Air,160.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-RI-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Ripstop,Air,160.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-UD-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,UD,Air,120.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-UD-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,UD,Air,120.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-UD-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,UD,Air,120.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-UD-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,UD,Air,120.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-NO-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Nonwoven,Air,100.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-NO-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Nonwoven,Air,100.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-NO-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Nonwoven,Air,100.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-NO-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Nonwoven,Air,100.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PA-50,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Paper,Air,80.0,0.05,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PA-100,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Paper,Air,80.0,0.1,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PA-200,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Paper,Air,80.0,0.2,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-UHMWPE_DYNEEMA-PA-500,UHMWPE (Dyneema) fabric,Textile,UHMWPE (Dyneema),,Paper,Air,80.0,0.5,,,Self-extinguishing,0.45,,3800,125,980,,,,0.45,,,Representative values; verify per supplier grade.,DSM
+HP-PBI-PL-50,PBI fabric,Textile,PBI,,Plain,Air,150.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PL-100,PBI fabric,Textile,PBI,,Plain,Air,150.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PL-200,PBI fabric,Textile,PBI,,Plain,Air,150.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PL-500,PBI fabric,Textile,PBI,,Plain,Air,150.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-TW-50,PBI fabric,Textile,PBI,,Twill,Air,180.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-TW-100,PBI fabric,Textile,PBI,,Twill,Air,180.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-TW-200,PBI fabric,Textile,PBI,,Twill,Air,180.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-TW-500,PBI fabric,Textile,PBI,,Twill,Air,180.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-RI-50,PBI fabric,Textile,PBI,,Ripstop,Air,160.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-RI-100,PBI fabric,Textile,PBI,,Ripstop,Air,160.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-RI-200,PBI fabric,Textile,PBI,,Ripstop,Air,160.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-RI-500,PBI fabric,Textile,PBI,,Ripstop,Air,160.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-UD-50,PBI fabric,Textile,PBI,,UD,Air,120.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-UD-100,PBI fabric,Textile,PBI,,UD,Air,120.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-UD-200,PBI fabric,Textile,PBI,,UD,Air,120.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-UD-500,PBI fabric,Textile,PBI,,UD,Air,120.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-NO-50,PBI fabric,Textile,PBI,,Nonwoven,Air,100.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-NO-100,PBI fabric,Textile,PBI,,Nonwoven,Air,100.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-NO-200,PBI fabric,Textile,PBI,,Nonwoven,Air,100.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-NO-500,PBI fabric,Textile,PBI,,Nonwoven,Air,100.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PA-50,PBI fabric,Textile,PBI,,Paper,Air,80.0,0.05,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PA-100,PBI fabric,Textile,PBI,,Paper,Air,80.0,0.1,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PA-200,PBI fabric,Textile,PBI,,Paper,Air,80.0,0.2,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PBI-PA-500,PBI fabric,Textile,PBI,,Paper,Air,80.0,0.5,,,Pass,0.2,,,,1530,,,,0.2,,,Representative values; verify per supplier grade.,PBI fabrics
+HP-PI_KAPTON-PL-50,PI (Kapton) film,Film,PI (Kapton),,Plain,Air,150.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PL-100,PI (Kapton) film,Film,PI (Kapton),,Plain,Air,150.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PL-200,PI (Kapton) film,Film,PI (Kapton),,Plain,Air,150.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PL-500,PI (Kapton) film,Film,PI (Kapton),,Plain,Air,150.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-TW-50,PI (Kapton) film,Film,PI (Kapton),,Twill,Air,180.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-TW-100,PI (Kapton) film,Film,PI (Kapton),,Twill,Air,180.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-TW-200,PI (Kapton) film,Film,PI (Kapton),,Twill,Air,180.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-TW-500,PI (Kapton) film,Film,PI (Kapton),,Twill,Air,180.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-RI-50,PI (Kapton) film,Film,PI (Kapton),,Ripstop,Air,160.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-RI-100,PI (Kapton) film,Film,PI (Kapton),,Ripstop,Air,160.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-RI-200,PI (Kapton) film,Film,PI (Kapton),,Ripstop,Air,160.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-RI-500,PI (Kapton) film,Film,PI (Kapton),,Ripstop,Air,160.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-UD-50,PI (Kapton) film,Film,PI (Kapton),,UD,Air,120.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-UD-100,PI (Kapton) film,Film,PI (Kapton),,UD,Air,120.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-UD-200,PI (Kapton) film,Film,PI (Kapton),,UD,Air,120.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-UD-500,PI (Kapton) film,Film,PI (Kapton),,UD,Air,120.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-NO-50,PI (Kapton) film,Film,PI (Kapton),,Nonwoven,Air,100.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-NO-100,PI (Kapton) film,Film,PI (Kapton),,Nonwoven,Air,100.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-NO-200,PI (Kapton) film,Film,PI (Kapton),,Nonwoven,Air,100.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-NO-500,PI (Kapton) film,Film,PI (Kapton),,Nonwoven,Air,100.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PA-50,PI (Kapton) film,Film,PI (Kapton),,Paper,Air,80.0,0.05,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PA-100,PI (Kapton) film,Film,PI (Kapton),,Paper,Air,80.0,0.1,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PA-200,PI (Kapton) film,Film,PI (Kapton),,Paper,Air,80.0,0.2,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PI_KAPTON-PA-500,PI (Kapton) film,Film,PI (Kapton),,Paper,Air,80.0,0.5,,,Pass,0.12,,,,1420,,,,0.12,,,Representative values; verify per supplier grade.,Kapton film
+HP-PTFE-PL-50,PTFE film,Film,PTFE,,Plain,Air,150.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PL-100,PTFE film,Film,PTFE,,Plain,Air,150.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PL-200,PTFE film,Film,PTFE,,Plain,Air,150.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PL-500,PTFE film,Film,PTFE,,Plain,Air,150.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-TW-50,PTFE film,Film,PTFE,,Twill,Air,180.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-TW-100,PTFE film,Film,PTFE,,Twill,Air,180.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-TW-200,PTFE film,Film,PTFE,,Twill,Air,180.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-TW-500,PTFE film,Film,PTFE,,Twill,Air,180.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-RI-50,PTFE film,Film,PTFE,,Ripstop,Air,160.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-RI-100,PTFE film,Film,PTFE,,Ripstop,Air,160.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-RI-200,PTFE film,Film,PTFE,,Ripstop,Air,160.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-RI-500,PTFE film,Film,PTFE,,Ripstop,Air,160.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-UD-50,PTFE film,Film,PTFE,,UD,Air,120.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-UD-100,PTFE film,Film,PTFE,,UD,Air,120.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-UD-200,PTFE film,Film,PTFE,,UD,Air,120.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-UD-500,PTFE film,Film,PTFE,,UD,Air,120.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-NO-50,PTFE film,Film,PTFE,,Nonwoven,Air,100.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-NO-100,PTFE film,Film,PTFE,,Nonwoven,Air,100.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-NO-200,PTFE film,Film,PTFE,,Nonwoven,Air,100.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-NO-500,PTFE film,Film,PTFE,,Nonwoven,Air,100.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PA-50,PTFE film,Film,PTFE,,Paper,Air,80.0,0.05,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PA-100,PTFE film,Film,PTFE,,Paper,Air,80.0,0.1,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PA-200,PTFE film,Film,PTFE,,Paper,Air,80.0,0.2,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-PTFE-PA-500,PTFE film,Film,PTFE,,Paper,Air,80.0,0.5,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Representative values; verify per supplier grade.,PTFE bulk
+HP-EPTFE-PL-50,ePTFE film,Film,ePTFE,,Plain,Air,150.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PL-100,ePTFE film,Film,ePTFE,,Plain,Air,150.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PL-200,ePTFE film,Film,ePTFE,,Plain,Air,150.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PL-500,ePTFE film,Film,ePTFE,,Plain,Air,150.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-TW-50,ePTFE film,Film,ePTFE,,Twill,Air,180.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-TW-100,ePTFE film,Film,ePTFE,,Twill,Air,180.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-TW-200,ePTFE film,Film,ePTFE,,Twill,Air,180.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-TW-500,ePTFE film,Film,ePTFE,,Twill,Air,180.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-RI-50,ePTFE film,Film,ePTFE,,Ripstop,Air,160.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-RI-100,ePTFE film,Film,ePTFE,,Ripstop,Air,160.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-RI-200,ePTFE film,Film,ePTFE,,Ripstop,Air,160.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-RI-500,ePTFE film,Film,ePTFE,,Ripstop,Air,160.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-UD-50,ePTFE film,Film,ePTFE,,UD,Air,120.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-UD-100,ePTFE film,Film,ePTFE,,UD,Air,120.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-UD-200,ePTFE film,Film,ePTFE,,UD,Air,120.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-UD-500,ePTFE film,Film,ePTFE,,UD,Air,120.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-NO-50,ePTFE film,Film,ePTFE,,Nonwoven,Air,100.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-NO-100,ePTFE film,Film,ePTFE,,Nonwoven,Air,100.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-NO-200,ePTFE film,Film,ePTFE,,Nonwoven,Air,100.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-NO-500,ePTFE film,Film,ePTFE,,Nonwoven,Air,100.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PA-50,ePTFE film,Film,ePTFE,,Paper,Air,80.0,0.05,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PA-100,ePTFE film,Film,ePTFE,,Paper,Air,80.0,0.1,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PA-200,ePTFE film,Film,ePTFE,,Paper,Air,80.0,0.2,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-EPTFE-PA-500,ePTFE film,Film,ePTFE,,Paper,Air,80.0,0.5,0.05,0.0,Pass,0.25,,,,600,,,,0.25,,,Representative values; verify per supplier grade.,ePTFE membrane
+HP-ETFE-PL-50,ETFE film,Film,ETFE,,Plain,Air,150.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PL-100,ETFE film,Film,ETFE,,Plain,Air,150.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PL-200,ETFE film,Film,ETFE,,Plain,Air,150.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PL-500,ETFE film,Film,ETFE,,Plain,Air,150.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-TW-50,ETFE film,Film,ETFE,,Twill,Air,180.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-TW-100,ETFE film,Film,ETFE,,Twill,Air,180.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-TW-200,ETFE film,Film,ETFE,,Twill,Air,180.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-TW-500,ETFE film,Film,ETFE,,Twill,Air,180.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-RI-50,ETFE film,Film,ETFE,,Ripstop,Air,160.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-RI-100,ETFE film,Film,ETFE,,Ripstop,Air,160.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-RI-200,ETFE film,Film,ETFE,,Ripstop,Air,160.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-RI-500,ETFE film,Film,ETFE,,Ripstop,Air,160.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-UD-50,ETFE film,Film,ETFE,,UD,Air,120.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-UD-100,ETFE film,Film,ETFE,,UD,Air,120.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-UD-200,ETFE film,Film,ETFE,,UD,Air,120.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-UD-500,ETFE film,Film,ETFE,,UD,Air,120.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-NO-50,ETFE film,Film,ETFE,,Nonwoven,Air,100.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-NO-100,ETFE film,Film,ETFE,,Nonwoven,Air,100.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-NO-200,ETFE film,Film,ETFE,,Nonwoven,Air,100.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-NO-500,ETFE film,Film,ETFE,,Nonwoven,Air,100.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PA-50,ETFE film,Film,ETFE,,Paper,Air,80.0,0.05,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PA-100,ETFE film,Film,ETFE,,Paper,Air,80.0,0.1,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PA-200,ETFE film,Film,ETFE,,Paper,Air,80.0,0.2,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-ETFE-PA-500,ETFE film,Film,ETFE,,Paper,Air,80.0,0.5,,,Pass,0.23,,,,1750,,,,0.23,,,Representative values; verify per supplier grade.,ETFE film
+HP-FEP-PL-50,FEP film,Film,FEP,,Plain,Air,150.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PL-100,FEP film,Film,FEP,,Plain,Air,150.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PL-200,FEP film,Film,FEP,,Plain,Air,150.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PL-500,FEP film,Film,FEP,,Plain,Air,150.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-TW-50,FEP film,Film,FEP,,Twill,Air,180.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-TW-100,FEP film,Film,FEP,,Twill,Air,180.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-TW-200,FEP film,Film,FEP,,Twill,Air,180.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-TW-500,FEP film,Film,FEP,,Twill,Air,180.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-RI-50,FEP film,Film,FEP,,Ripstop,Air,160.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-RI-100,FEP film,Film,FEP,,Ripstop,Air,160.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-RI-200,FEP film,Film,FEP,,Ripstop,Air,160.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-RI-500,FEP film,Film,FEP,,Ripstop,Air,160.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-UD-50,FEP film,Film,FEP,,UD,Air,120.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-UD-100,FEP film,Film,FEP,,UD,Air,120.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-UD-200,FEP film,Film,FEP,,UD,Air,120.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-UD-500,FEP film,Film,FEP,,UD,Air,120.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-NO-50,FEP film,Film,FEP,,Nonwoven,Air,100.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-NO-100,FEP film,Film,FEP,,Nonwoven,Air,100.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-NO-200,FEP film,Film,FEP,,Nonwoven,Air,100.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-NO-500,FEP film,Film,FEP,,Nonwoven,Air,100.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PA-50,FEP film,Film,FEP,,Paper,Air,80.0,0.05,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PA-100,FEP film,Film,FEP,,Paper,Air,80.0,0.1,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PA-200,FEP film,Film,FEP,,Paper,Air,80.0,0.2,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-FEP-PA-500,FEP film,Film,FEP,,Paper,Air,80.0,0.5,,,Pass,0.25,,,,2150,,,,0.25,,,Representative values; verify per supplier grade.,FEP film
+HP-PEEK-PL-50,PEEK fabric,Textile,PEEK,,Plain,Air,150.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PL-100,PEEK fabric,Textile,PEEK,,Plain,Air,150.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PL-200,PEEK fabric,Textile,PEEK,,Plain,Air,150.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PL-500,PEEK fabric,Textile,PEEK,,Plain,Air,150.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-TW-50,PEEK fabric,Textile,PEEK,,Twill,Air,180.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-TW-100,PEEK fabric,Textile,PEEK,,Twill,Air,180.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-TW-200,PEEK fabric,Textile,PEEK,,Twill,Air,180.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-TW-500,PEEK fabric,Textile,PEEK,,Twill,Air,180.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-RI-50,PEEK fabric,Textile,PEEK,,Ripstop,Air,160.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-RI-100,PEEK fabric,Textile,PEEK,,Ripstop,Air,160.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-RI-200,PEEK fabric,Textile,PEEK,,Ripstop,Air,160.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-RI-500,PEEK fabric,Textile,PEEK,,Ripstop,Air,160.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-UD-50,PEEK fabric,Textile,PEEK,,UD,Air,120.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-UD-100,PEEK fabric,Textile,PEEK,,UD,Air,120.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-UD-200,PEEK fabric,Textile,PEEK,,UD,Air,120.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-UD-500,PEEK fabric,Textile,PEEK,,UD,Air,120.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-NO-50,PEEK fabric,Textile,PEEK,,Nonwoven,Air,100.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-NO-100,PEEK fabric,Textile,PEEK,,Nonwoven,Air,100.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-NO-200,PEEK fabric,Textile,PEEK,,Nonwoven,Air,100.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-NO-500,PEEK fabric,Textile,PEEK,,Nonwoven,Air,100.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PA-50,PEEK fabric,Textile,PEEK,,Paper,Air,80.0,0.05,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PA-100,PEEK fabric,Textile,PEEK,,Paper,Air,80.0,0.1,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PA-200,PEEK fabric,Textile,PEEK,,Paper,Air,80.0,0.2,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PEEK-PA-500,PEEK fabric,Textile,PEEK,,Paper,Air,80.0,0.5,,,Pass,0.25,,,,1320,,,,0.25,,,Representative values; verify per supplier grade.,PEEK
+HP-PPS-PL-50,PPS fabric,Textile,PPS,,Plain,Air,150.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PL-100,PPS fabric,Textile,PPS,,Plain,Air,150.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PL-200,PPS fabric,Textile,PPS,,Plain,Air,150.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PL-500,PPS fabric,Textile,PPS,,Plain,Air,150.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-TW-50,PPS fabric,Textile,PPS,,Twill,Air,180.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-TW-100,PPS fabric,Textile,PPS,,Twill,Air,180.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-TW-200,PPS fabric,Textile,PPS,,Twill,Air,180.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-TW-500,PPS fabric,Textile,PPS,,Twill,Air,180.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-RI-50,PPS fabric,Textile,PPS,,Ripstop,Air,160.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-RI-100,PPS fabric,Textile,PPS,,Ripstop,Air,160.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-RI-200,PPS fabric,Textile,PPS,,Ripstop,Air,160.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-RI-500,PPS fabric,Textile,PPS,,Ripstop,Air,160.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-UD-50,PPS fabric,Textile,PPS,,UD,Air,120.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-UD-100,PPS fabric,Textile,PPS,,UD,Air,120.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-UD-200,PPS fabric,Textile,PPS,,UD,Air,120.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-UD-500,PPS fabric,Textile,PPS,,UD,Air,120.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-NO-50,PPS fabric,Textile,PPS,,Nonwoven,Air,100.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-NO-100,PPS fabric,Textile,PPS,,Nonwoven,Air,100.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-NO-200,PPS fabric,Textile,PPS,,Nonwoven,Air,100.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-NO-500,PPS fabric,Textile,PPS,,Nonwoven,Air,100.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PA-50,PPS fabric,Textile,PPS,,Paper,Air,80.0,0.05,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PA-100,PPS fabric,Textile,PPS,,Paper,Air,80.0,0.1,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PA-200,PPS fabric,Textile,PPS,,Paper,Air,80.0,0.2,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+HP-PPS-PA-500,PPS fabric,Textile,PPS,,Paper,Air,80.0,0.5,,,Pass,0.3,,,,1340,,,,0.3,,,Representative values; verify per supplier grade.,PPS
+INORG-E-GLASS-PL-200,E-glass fabric,Textile,E-glass,,Plain,Air,150.0,0.2,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-PL-500,E-glass fabric,Textile,E-glass,,Plain,Air,375.0,0.5,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-PL-1000,E-glass fabric,Textile,E-glass,,Plain,Air,750.0,1.0,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-TW-200,E-glass fabric,Textile,E-glass,,Twill,Air,180.0,0.2,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-TW-500,E-glass fabric,Textile,E-glass,,Twill,Air,450.0,0.5,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-TW-1000,E-glass fabric,Textile,E-glass,,Twill,Air,900.0,1.0,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-SA-200,E-glass fabric,Textile,E-glass,,Satin,Air,200.0,0.2,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-SA-500,E-glass fabric,Textile,E-glass,,Satin,Air,500.0,0.5,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-SA-1000,E-glass fabric,Textile,E-glass,,Satin,Air,1000.0,1.0,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-UD-200,E-glass fabric,Textile,E-glass,,UD,Air,120.0,0.2,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-UD-500,E-glass fabric,Textile,E-glass,,UD,Air,300.0,0.5,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-UD-1000,E-glass fabric,Textile,E-glass,,UD,Air,600.0,1.0,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-NO-200,E-glass fabric,Textile,E-glass,,Nonwoven,Air,100.0,0.2,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-NO-500,E-glass fabric,Textile,E-glass,,Nonwoven,Air,250.0,0.5,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-E-GLASS-NO-1000,E-glass fabric,Textile,E-glass,,Nonwoven,Air,500.0,1.0,,,Pass,1.3,,,,2540,,,,1.3,,,Representative values; verify per supplier grade.,E-glass refs
+INORG-S-2_GLASS-PL-200,S-2 glass fabric,Textile,S-2 glass,,Plain,Air,150.0,0.2,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-PL-500,S-2 glass fabric,Textile,S-2 glass,,Plain,Air,375.0,0.5,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-PL-1000,S-2 glass fabric,Textile,S-2 glass,,Plain,Air,750.0,1.0,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-TW-200,S-2 glass fabric,Textile,S-2 glass,,Twill,Air,180.0,0.2,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-TW-500,S-2 glass fabric,Textile,S-2 glass,,Twill,Air,450.0,0.5,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-TW-1000,S-2 glass fabric,Textile,S-2 glass,,Twill,Air,900.0,1.0,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-SA-200,S-2 glass fabric,Textile,S-2 glass,,Satin,Air,200.0,0.2,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-SA-500,S-2 glass fabric,Textile,S-2 glass,,Satin,Air,500.0,0.5,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-SA-1000,S-2 glass fabric,Textile,S-2 glass,,Satin,Air,1000.0,1.0,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-UD-200,S-2 glass fabric,Textile,S-2 glass,,UD,Air,120.0,0.2,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-UD-500,S-2 glass fabric,Textile,S-2 glass,,UD,Air,300.0,0.5,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-UD-1000,S-2 glass fabric,Textile,S-2 glass,,UD,Air,600.0,1.0,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-NO-200,S-2 glass fabric,Textile,S-2 glass,,Nonwoven,Air,100.0,0.2,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-NO-500,S-2 glass fabric,Textile,S-2 glass,,Nonwoven,Air,250.0,0.5,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-S-2_GLASS-NO-1000,S-2 glass fabric,Textile,S-2 glass,,Nonwoven,Air,500.0,1.0,,,Pass,1.25,,,,2490,875.0,,,1.25,,,Representative values; verify per supplier grade.,S-2 glass
+INORG-QUARTZ_FABRIC-PL-200,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Plain,Air,150.0,0.2,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-PL-500,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Plain,Air,375.0,0.5,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-PL-1000,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Plain,Air,750.0,1.0,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-TW-200,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Twill,Air,180.0,0.2,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-TW-500,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Twill,Air,450.0,0.5,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-TW-1000,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Twill,Air,900.0,1.0,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-SA-200,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Satin,Air,200.0,0.2,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-SA-500,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Satin,Air,500.0,0.5,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-SA-1000,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Satin,Air,1000.0,1.0,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-UD-200,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,UD,Air,120.0,0.2,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-UD-500,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,UD,Air,300.0,0.5,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-UD-1000,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,UD,Air,600.0,1.0,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-NO-200,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Nonwoven,Air,100.0,0.2,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-NO-500,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Nonwoven,Air,250.0,0.5,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-QUARTZ_FABRIC-NO-1000,Quartz fabric fabric,Ceramic Textile,Quartz fabric,,Nonwoven,Air,500.0,1.0,,,Pass,1.4,,,,2200,,,,1.4,,,Representative values; verify per supplier grade.,Quartz textile
+INORG-HIGH_SILICA_CLOTH-PL-200,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Plain,Air,150.0,0.2,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-PL-500,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Plain,Air,375.0,0.5,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-PL-1000,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Plain,Air,750.0,1.0,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-TW-200,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Twill,Air,180.0,0.2,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-TW-500,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Twill,Air,450.0,0.5,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-TW-1000,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Twill,Air,900.0,1.0,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-SA-200,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Satin,Air,200.0,0.2,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-SA-500,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Satin,Air,500.0,0.5,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-SA-1000,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Satin,Air,1000.0,1.0,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-UD-200,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,UD,Air,120.0,0.2,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-UD-500,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,UD,Air,300.0,0.5,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-UD-1000,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,UD,Air,600.0,1.0,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-NO-200,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Nonwoven,Air,100.0,0.2,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-NO-500,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Nonwoven,Air,250.0,0.5,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-HIGH_SILICA_CLOTH-NO-1000,High Silica cloth fabric,Ceramic Textile,High Silica cloth,,Nonwoven,Air,500.0,1.0,,,Pass,0.339,,,,2200,1000.0,,,0.339,,,Representative values; verify per supplier grade.,Silica cloth
+INORG-BASALT-PL-200,Basalt fabric,Textile,Basalt,,Plain,Air,150.0,0.2,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-PL-500,Basalt fabric,Textile,Basalt,,Plain,Air,375.0,0.5,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-PL-1000,Basalt fabric,Textile,Basalt,,Plain,Air,750.0,1.0,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-TW-200,Basalt fabric,Textile,Basalt,,Twill,Air,180.0,0.2,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-TW-500,Basalt fabric,Textile,Basalt,,Twill,Air,450.0,0.5,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-TW-1000,Basalt fabric,Textile,Basalt,,Twill,Air,900.0,1.0,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-SA-200,Basalt fabric,Textile,Basalt,,Satin,Air,200.0,0.2,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-SA-500,Basalt fabric,Textile,Basalt,,Satin,Air,500.0,0.5,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-SA-1000,Basalt fabric,Textile,Basalt,,Satin,Air,1000.0,1.0,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-UD-200,Basalt fabric,Textile,Basalt,,UD,Air,120.0,0.2,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-UD-500,Basalt fabric,Textile,Basalt,,UD,Air,300.0,0.5,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-UD-1000,Basalt fabric,Textile,Basalt,,UD,Air,600.0,1.0,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-NO-200,Basalt fabric,Textile,Basalt,,Nonwoven,Air,100.0,0.2,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-NO-500,Basalt fabric,Textile,Basalt,,Nonwoven,Air,250.0,0.5,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-BASALT-NO-1000,Basalt fabric,Textile,Basalt,,Nonwoven,Air,500.0,1.0,,,Pass,0.031,,,,150,,,,0.031,,,Representative values; verify per supplier grade.,Basalt insulation
+INORG-NEXTEL_312-PL-200,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Plain,Air,150.0,0.2,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-PL-500,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Plain,Air,375.0,0.5,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-PL-1000,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Plain,Air,750.0,1.0,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-TW-200,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Twill,Air,180.0,0.2,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-TW-500,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Twill,Air,450.0,0.5,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-TW-1000,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Twill,Air,900.0,1.0,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-SA-200,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Satin,Air,200.0,0.2,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-SA-500,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Satin,Air,500.0,0.5,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-SA-1000,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Satin,Air,1000.0,1.0,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-UD-200,Nextel 312 fabric,Ceramic Textile,Nextel 312,,UD,Air,120.0,0.2,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-UD-500,Nextel 312 fabric,Ceramic Textile,Nextel 312,,UD,Air,300.0,0.5,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-UD-1000,Nextel 312 fabric,Ceramic Textile,Nextel 312,,UD,Air,600.0,1.0,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-NO-200,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Nonwoven,Air,100.0,0.2,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-NO-500,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Nonwoven,Air,250.0,0.5,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_312-NO-1000,Nextel 312 fabric,Ceramic Textile,Nextel 312,,Nonwoven,Air,500.0,1.0,,,Pass,1.7,,,,2700,,,,1.7,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-PL-200,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Plain,Air,150.0,0.2,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-PL-500,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Plain,Air,375.0,0.5,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-PL-1000,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Plain,Air,750.0,1.0,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-TW-200,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Twill,Air,180.0,0.2,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-TW-500,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Twill,Air,450.0,0.5,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-TW-1000,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Twill,Air,900.0,1.0,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-SA-200,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Satin,Air,200.0,0.2,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-SA-500,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Satin,Air,500.0,0.5,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-SA-1000,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Satin,Air,1000.0,1.0,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-UD-200,Nextel 440 fabric,Ceramic Textile,Nextel 440,,UD,Air,120.0,0.2,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-UD-500,Nextel 440 fabric,Ceramic Textile,Nextel 440,,UD,Air,300.0,0.5,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-UD-1000,Nextel 440 fabric,Ceramic Textile,Nextel 440,,UD,Air,600.0,1.0,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-NO-200,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Nonwoven,Air,100.0,0.2,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-NO-500,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Nonwoven,Air,250.0,0.5,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_440-NO-1000,Nextel 440 fabric,Ceramic Textile,Nextel 440,,Nonwoven,Air,500.0,1.0,,,Pass,1.8,,,,2900,,,,1.8,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-PL-200,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Plain,Air,150.0,0.2,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-PL-500,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Plain,Air,375.0,0.5,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-PL-1000,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Plain,Air,750.0,1.0,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-TW-200,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Twill,Air,180.0,0.2,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-TW-500,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Twill,Air,450.0,0.5,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-TW-1000,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Twill,Air,900.0,1.0,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-SA-200,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Satin,Air,200.0,0.2,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-SA-500,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Satin,Air,500.0,0.5,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-SA-1000,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Satin,Air,1000.0,1.0,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-UD-200,Nextel 720 fabric,Ceramic Textile,Nextel 720,,UD,Air,120.0,0.2,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-UD-500,Nextel 720 fabric,Ceramic Textile,Nextel 720,,UD,Air,300.0,0.5,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-UD-1000,Nextel 720 fabric,Ceramic Textile,Nextel 720,,UD,Air,600.0,1.0,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-NO-200,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Nonwoven,Air,100.0,0.2,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-NO-500,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Nonwoven,Air,250.0,0.5,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+INORG-NEXTEL_720-NO-1000,Nextel 720 fabric,Ceramic Textile,Nextel 720,,Nonwoven,Air,500.0,1.0,,,Pass,2.0,,,,3200,,,,2.0,,,Representative values; verify per supplier grade.,3M Nextel
+CF-PAN_CF_STD-UD-100,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,UD,Air,60.0,0.1,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-UD-200,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,UD,Air,120.0,0.2,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-UD-500,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,UD,Air,300.0,0.5,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-PL-100,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Plain,Air,75.0,0.1,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-PL-200,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Plain,Air,150.0,0.2,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-PL-500,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Plain,Air,375.0,0.5,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-TW-100,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Twill,Air,90.0,0.1,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-TW-200,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Twill,Air,180.0,0.2,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PAN_CF_STD-TW-500,PAN CF (std) fabric,Carbon Textile,PAN CF (std),,Twill,Air,450.0,0.5,,,Pass,,13.0,3500,230,1780,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,PAN CF
+CF-PITCH_CF_HIGH-K-UD-100,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,UD,Air,60.0,0.1,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-UD-200,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,UD,Air,120.0,0.2,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-UD-500,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,UD,Air,300.0,0.5,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-PL-100,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Plain,Air,75.0,0.1,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-PL-200,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Plain,Air,150.0,0.2,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-PL-500,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Plain,Air,375.0,0.5,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-TW-100,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Twill,Air,90.0,0.1,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-TW-200,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Twill,Air,180.0,0.2,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+CF-PITCH_CF_HIGH-K-TW-500,Pitch CF (high-k) fabric,Carbon Textile,Pitch CF (high-k),,Twill,Air,450.0,0.5,,,Pass,,900.0,3500,900,2200,,,,,,,Axial in-plane k listed; through-thickness typically much lower.,Pitch CF high-k
+FILM-MYLAR-CL-5,Mylar film,Film,Mylar,,Film,Vacuum,,0.005,0.18,0.01,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-MYLAR-CL-12,Mylar film,Film,Mylar,,Film,Vacuum,,0.012,0.18,0.01,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-MYLAR-CL-25,Mylar film,Film,Mylar,,Film,Vacuum,,0.025,0.18,0.01,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-MYLAR-AL-5,"Mylar film, aluminized",Film,Mylar,Aluminized,Film,Vacuum,,0.005,0.26,0.0,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-MYLAR-AL-12,"Mylar film, aluminized",Film,Mylar,Aluminized,Film,Vacuum,,0.012,0.26,0.0,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-MYLAR-AL-25,"Mylar film, aluminized",Film,Mylar,Aluminized,Film,Vacuum,,0.025,0.26,0.0,Pass,0.155,,,,1390,,,,0.155,,,Film thickness variant; verify supplier datasheet.,PET Mylar
+FILM-KAPTON_HN-CL-5,Kapton HN film,Film,Kapton HN,,Film,Vacuum,,0.005,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-KAPTON_HN-CL-12,Kapton HN film,Film,Kapton HN,,Film,Vacuum,,0.012,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-KAPTON_HN-CL-25,Kapton HN film,Film,Kapton HN,,Film,Vacuum,,0.025,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-KAPTON_HN-AL-5,"Kapton HN film, aluminized",Film,Kapton HN,Aluminized,Film,Vacuum,,0.005,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-KAPTON_HN-AL-12,"Kapton HN film, aluminized",Film,Kapton HN,Aluminized,Film,Vacuum,,0.012,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-KAPTON_HN-AL-25,"Kapton HN film, aluminized",Film,Kapton HN,Aluminized,Film,Vacuum,,0.025,1.24,0.0,,,,,,,,,,,,,Film thickness variant; verify supplier datasheet.,
+FILM-PEN_(TEONEX)-CL-5,PEN (Teonex) film,Film,PEN (Teonex),,Film,Vacuum,,0.005,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-PEN_(TEONEX)-CL-12,PEN (Teonex) film,Film,PEN (Teonex),,Film,Vacuum,,0.012,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-PEN_(TEONEX)-CL-25,PEN (Teonex) film,Film,PEN (Teonex),,Film,Vacuum,,0.025,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-PEN_(TEONEX)-AL-5,"PEN (Teonex) film, aluminized",Film,PEN (Teonex),Aluminized,Film,Vacuum,,0.005,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-PEN_(TEONEX)-AL-12,"PEN (Teonex) film, aluminized",Film,PEN (Teonex),Aluminized,Film,Vacuum,,0.012,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-PEN_(TEONEX)-AL-25,"PEN (Teonex) film, aluminized",Film,PEN (Teonex),Aluminized,Film,Vacuum,,0.025,,,Pass,0.22,,,,1360,,,,0.22,,,Film thickness variant; verify supplier datasheet.,PEN
+FILM-ETFE-CL-5,ETFE film,Film,ETFE,,Film,Vacuum,,0.005,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-ETFE-CL-12,ETFE film,Film,ETFE,,Film,Vacuum,,0.012,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-ETFE-CL-25,ETFE film,Film,ETFE,,Film,Vacuum,,0.025,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-ETFE-AL-5,"ETFE film, aluminized",Film,ETFE,Aluminized,Film,Vacuum,,0.005,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-ETFE-AL-12,"ETFE film, aluminized",Film,ETFE,Aluminized,Film,Vacuum,,0.012,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-ETFE-AL-25,"ETFE film, aluminized",Film,ETFE,Aluminized,Film,Vacuum,,0.025,,,Pass,0.23,,,,1750,,,,0.23,,,Film thickness variant; verify supplier datasheet.,ETFE film
+FILM-FEP-CL-5,FEP film,Film,FEP,,Film,Vacuum,,0.005,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-FEP-CL-12,FEP film,Film,FEP,,Film,Vacuum,,0.012,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-FEP-CL-25,FEP film,Film,FEP,,Film,Vacuum,,0.025,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-FEP-AL-5,"FEP film, aluminized",Film,FEP,Aluminized,Film,Vacuum,,0.005,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-FEP-AL-12,"FEP film, aluminized",Film,FEP,Aluminized,Film,Vacuum,,0.012,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-FEP-AL-25,"FEP film, aluminized",Film,FEP,Aluminized,Film,Vacuum,,0.025,,,Pass,0.25,,,,2150,,,,0.25,,,Film thickness variant; verify supplier datasheet.,FEP film
+FILM-PTFE-CL-5,PTFE film,Film,PTFE,,Film,Vacuum,,0.005,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-PTFE-CL-12,PTFE film,Film,PTFE,,Film,Vacuum,,0.012,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-PTFE-CL-25,PTFE film,Film,PTFE,,Film,Vacuum,,0.025,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-PTFE-AL-5,"PTFE film, aluminized",Film,PTFE,Aluminized,Film,Vacuum,,0.005,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-PTFE-AL-12,"PTFE film, aluminized",Film,PTFE,Aluminized,Film,Vacuum,,0.012,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-PTFE-AL-25,"PTFE film, aluminized",Film,PTFE,Aluminized,Film,Vacuum,,0.025,0.05,0.0,Pass,0.25,,,,2200,,,,0.25,,,Film thickness variant; verify supplier datasheet.,PTFE bulk
+FILM-POLYCARBONATE-CL-5,Polycarbonate film,Film,Polycarbonate,,Film,Vacuum,,0.005,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+FILM-POLYCARBONATE-CL-12,Polycarbonate film,Film,Polycarbonate,,Film,Vacuum,,0.012,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+FILM-POLYCARBONATE-CL-25,Polycarbonate film,Film,Polycarbonate,,Film,Vacuum,,0.025,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+FILM-POLYCARBONATE-AL-5,"Polycarbonate film, aluminized",Film,Polycarbonate,Aluminized,Film,Vacuum,,0.005,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+FILM-POLYCARBONATE-AL-12,"Polycarbonate film, aluminized",Film,Polycarbonate,Aluminized,Film,Vacuum,,0.012,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+FILM-POLYCARBONATE-AL-25,"Polycarbonate film, aluminized",Film,Polycarbonate,Aluminized,Film,Vacuum,,0.025,,,Fail,0.2,,,,1200,,,,0.2,,,Film thickness variant; verify supplier datasheet.,PC film
+INS-SILICA_AEROGEL_BLANKET,Silica aerogel blanket,Insulation,Silica aerogel blanket,,Blanket,Vacuum,,,,,Non-flammable,0.017,,,,180,,,0.02,0.017,,0.025,Effective k in high vacuum for MLI; aerogel blanket typical behaviour.,Spaceloft/Pyrogel typical
+INS-MLI_KAPTON_40L,MLI (Kapton 40L),Insulation,MLI (Kapton 40L),,MLI,Vacuum,,,,,Pass,8e-05,,,,120,,8e-05,,,,,Effective k in high vacuum for MLI; aerogel blanket typical behaviour.,NASA MLI
+INS-MLI_MYLAR_30L,MLI (Mylar 30L),Insulation,MLI (Mylar 30L),,MLI,Vacuum,,,,,Pass,0.0001,,,,90,,8e-05,,,,,Effective k in high vacuum for MLI; aerogel blanket typical behaviour.,NASA MLI
+BETA-DE400,Aluminized Beta Cloth DE400,Composite Textile,E-glass,PTFE/Aluminized,Plain,Vacuum,,,0.03,0.0,Pass,,,,,2540,260.0,,,,,,NASA GSFC DE400 values; verify exact vendor spec.,NASA GSFC Outgassing DB
+BETA-CF500F,ChemFab CF 500F Beta Cloth,Composite Textile,E-glass,PTFE,Plain,Vacuum,,,2.06,0.28,Pass,,,,,2540,260.0,,,,,,ChemFab CF500F values from GSFC listing.,NASA GSFC Outgassing DB
+NEW-JUTE,Jute,Textile,Jute,,Plain,,,,,,Fail,0.05,,,,1460,,,,,,,Anchor entry appended in ULTRA v3,Jute fabric refs
+NEW-RAMIE,Ramie,Textile,Ramie,,Plain,,,,,,Fail,0.045,,,,1500,,,,,,,Anchor entry appended in ULTRA v3,Ramie fiber refs
+NEW-ACRYLIC,Acrylic,Textile,Acrylic,,Plain,,,,,,Fail,0.19,,,,1190,,,,,,,Anchor entry appended in ULTRA v3,Acrylic fabric
+NEW-SPANDEX,Spandex,Textile,Spandex,,Plain,,,,,,Fail,0.21,,,,1220,,,,,,,Anchor entry appended in ULTRA v3,Spandex fabric
+NEW-PEI_(ULTEM),PEI (Ultem),Polymer/Insulation,PEI (Ultem),,Plain,,,,,,Pass,0.22,,,,1270,,,,,,,Anchor entry appended in ULTRA v3,Sabic Ultem
+NEW-PSU,PSU,Polymer/Insulation,PSU,,Plain,,,,,,Pass,0.26,,,,1240,,,,,,,Anchor entry appended in ULTRA v3,Polysulfone
+NEW-PPSU,PPSU,Polymer/Insulation,PPSU,,Plain,,,,,,Pass,0.27,,,,1290,,,,,,,Anchor entry appended in ULTRA v3,Polyphenylsulfone
+NEW-POLYIMIDE_FOAM,Polyimide foam,Polymer/Insulation,Polyimide foam,,Plain,,,,,,Pass,0.03,,,,55,,,,,,,Anchor entry appended in ULTRA v3,Solimide foam NASA
