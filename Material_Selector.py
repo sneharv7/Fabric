@@ -9,7 +9,7 @@ st.set_page_config(page_title="Space Textile Selector", layout="wide")
 # Defaults & constants
 # -----------------------------
 COMPACT_DEFAULT = True  # good for mobile
-AUTO_CSV_PATH = "/mnt/data/space_textile_dataset_AI_ready_ULTRA_v3.csv"  # auto-load if present
+AUTO_CSV_PATH = "/space_textile_dataset_AI_ready_ULTRA_v3.csv"  # auto-load if present
 
 SCHEMA_ORDER = [
     "Material_ID","Material_Name","Material_Class","Base_Fiber","Coating_Type","Weave_Pattern",
