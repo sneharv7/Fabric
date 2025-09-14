@@ -247,8 +247,7 @@ with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=Fals
         """
         ### Properties (with typical sources)
         **Identity & categorization**
-        - **Material_ID** – unique row ID.  
-          *Source:* Internal/project dataset convention.
+        - **Material_ID** – unique row ID. 
         - **Material_Name** – readable name (e.g., “Kevlar 29 fabric”).  
           *Source:* Vendor datasheets / standards names.
         - **Material_Class** – category (Textile, Film, Ceramic Textile, Carbon Textile, Insulation, Polymer/Insulation).  
