@@ -241,16 +241,6 @@ if st.sidebar.button("Generate ranked list", type="primary"):
         scored.to_csv(out, index=False)
         st.download_button("Download ranked results (CSV)", data=out.getvalue(), file_name="ranked_materials.csv", mime="text/csv")
 
-# Tips
-with st.expander("ℹ️ Tips & recommended settings", expanded=False):
-    st.markdown(
-        """
-        - **Use L2/L1** when your targets are **absolute** (e.g., k_through = 0.05 W/m·K). 
-        - Use **Desirability** when you care about directionality (e.g., *minimize outgassing*, *maximize tensile strength*). It gives a **0–1 score per metric** and averages them.
-        - Apply **filters** first (e.g., `Test_Environment = Vacuum` and `Material_Class = Film`) to narrow down.
-        - If some values are missing (NaN), desirability treats them as 0. You can also filter out NaNs in the source CSV if needed.
-        - For **mobile**: toggle **Mobile compact mode** in the sidebar for a cleaner, stacked view.
-        """
     )
 
 st.caption("© Your Company — AI selector for astronaut/military textiles")
