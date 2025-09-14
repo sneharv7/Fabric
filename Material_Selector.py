@@ -242,4 +242,4 @@ if st.sidebar.button("Generate ranked list", type="primary"):
         st.download_button("Download ranked results (CSV)", data=out.getvalue(), file_name="ranked_materials.csv", mime="text/csv")
     
 
-st.caption("© Your Company — AI selector for astronaut/military textiles")
+st.caption("© Vernell — AI selector for astronaut/military textiles")
