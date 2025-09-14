@@ -242,4 +242,33 @@ if st.sidebar.button("Generate ranked list", type="primary"):
         st.download_button("Download ranked results (CSV)", data=out.getvalue(), file_name="ranked_materials.csv", mime="text/csv")
     
 
+# Tips
+Identity & categorization
+	•	Material_ID – unique row ID.
+	•	Material_Name – readable name (e.g., “Kevlar 29 fabric”).
+	•	Material_Class – category (Textile, Film, Ceramic Textile, Carbon Textile, Insulation, Polymer/Insulation).
+	•	Base_Fiber – base material (Kevlar 29, Nomex 410, E-glass, PET, …).
+	•	Coating_Type – surface treatment (e.g., Aluminized, PTFE).
+	•	Weave_Pattern – Plain, Twill, Satin, Basket, Ripstop, UD, Nonwoven, Paper, Knitted, Film.
+	•	Test_Environment – Air or Vacuum (where data applies).
+
+Geometric / physical
+	•	Areal_Density_gm2 – mass/area (g/m²).
+	•	Thickness_mm – thickness (mm).
+	•	Bulk_Density_kgm3 – material density (kg/m³).
+
+Thermal
+	•	Thermal_Conductivity_Through_WmK – through-thickness k (W/m·K).
+	•	Thermal_Conductivity_InPlane_WmK – in-plane k (anisotropic materials).
+	•	k_-100C_WmK, k_0C_WmK, k_23C_WmK, k_150C_WmK, k_200C_WmK – k at specific temperatures.
+
+Mechanical
+	•	Tensile_Strength_MPa – tensile strength (MPa).
+	•	Tensile_Modulus_GPa – modulus (GPa).
+
+Stability / compliance
+	•	Outgassing_TML_percent – Total Mass Loss % (NASA outgassing).
+	•	Outgassing_CVCM_percent – Condensables %.
+	•	Flammability_Rating – Pass / Fail / Self-extinguishing / Non-flammable.
+	•	Max_Service_Temp_C – recommended max service temperature (°C).
 st.caption("© Vernell — AI selector for astronaut/military textiles")
