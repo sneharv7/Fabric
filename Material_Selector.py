@@ -106,7 +106,6 @@ def load_data():
             st.sidebar.warning("Provide a RAW URL or switch source.")
             return _load_sample()
 
-   
     else:  # Bundled file
         try:
             df = _load_csv_from_path(AUTO_CSV_PATH)
