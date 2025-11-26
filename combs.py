@@ -6,15 +6,15 @@ import pandas as pd
 import numpy as np
 from io import BytesIO
 
-def run_app(): 
-    
+def run_app():  
+
+AUTO_CSV_PATH = "data/space_textile_dataset_AI_ready_ULTRA_v3.csv"     
 st.set_page_config(page_title="Space Textile Selector", layout="wide")
 
 # -----------------------------
 # Defaults & constants
 # -----------------------------
-COMPACT_DEFAULT = True  # good for mobile
-AUTO_CSV_PATH = "data/space_textile_dataset_AI_ready_ULTRA_v3.csv"  # path inside your GitHub repo  # auto-load if present
+COMPACT_DEFAULT = True  # good for mobile # path inside your GitHub repo  # auto-load if present
 
 SCHEMA_ORDER = [
     "Material_ID","Material_Name","Material_Class","Base_Fiber","Coating_Type","Weave_Pattern",
