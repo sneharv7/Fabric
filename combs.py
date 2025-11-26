@@ -4,9 +4,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from io import BytesIO
-
-def run_app():  
+from io import BytesIO 
 
 AUTO_CSV_PATH = "data/space_textile_dataset_AI_ready_ULTRA_v3.csv"     
 st.set_page_config(page_title="Space Textile Selector", layout="wide")
