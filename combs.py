@@ -6,6 +6,8 @@ import pandas as pd
 import numpy as np
 from io import BytesIO
 
+def run_app(): 
+    
 st.set_page_config(page_title="Space Textile Selector", layout="wide")
 
 # -----------------------------
