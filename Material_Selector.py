@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from io import BytesIO
+from io import BytesIO 
+from combs import run_app
+
+run_app()
 
 st.set_page_config(page_title="Space Textile Selector", layout="wide")
 
