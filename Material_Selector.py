@@ -947,4 +947,4 @@ with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=Fals
         - **Sense** – **minimize** or **maximize** (direction of optimization).
 
         """
-# )
+  )
