@@ -67,6 +67,16 @@ def _load_csv_from_url(url: str) -> pd.DataFrame:
 def _load_csv_from_path(path: str) -> pd.DataFrame:
     return pd.read_csv(path)
 
+@st.cache_data(show_spinner=False)
+def _load_csv_from_url(url: str) -> pd.DataFrame:
+    import requests, io
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return pd.read_csv(io.BytesIO(r.content))
+
+@st.cache_data(show_spinner=False)
+def _load_csv_from_path(path: str) -> pd.DataFrame:
+    return pd.read_csv(path)
 
 def load_data():
     st.sidebar.header("1) Load your dataset")
@@ -78,21 +88,29 @@ def load_data():
         help="Choose where to load the dataset from"
     )
 
+    # Option 1: upload
     if source == "Upload":
         upl = st.sidebar.file_uploader("Upload CSV (AI-ready schema)", type=["csv"])
         if upl is not None:
             try:
-                return pd.read_csv(upl)
+                df = pd.read_csv(upl)
+                st.sidebar.success("Uploaded CSV loaded.")
+                return df
             except Exception as e:
                 st.sidebar.error(f"Could not read CSV: {e}")
                 return _load_sample()
         else:
-            st.sidebar.info("No file uploaded yet. Try GitHub RAW URL or Bundled file.")
+            st.sidebar.info("No file uploaded yet. Using small built-in sample.")
             return _load_sample()
 
+    # Option 2: GitHub RAW URL
     elif source == "GitHub RAW URL":
         default_url = st.session_state.get("csv_url", "")
-        url = st.sidebar.text_input("Paste RAW CSV URL", value=default_url, placeholder="https://raw.githubusercontent.com/<user>/<repo>/main/data/space_textile_dataset_AI_ready_ULTRA_v3.csv")
+        url = st.sidebar.text_input(
+            "Paste RAW CSV URL",
+            value=default_url,
+            placeholder="https://raw.githubusercontent.com/<user>/<repo>/main/data/your_file.csv",
+        )
         st.session_state["csv_url"] = url
         if url:
             try:
@@ -106,7 +124,8 @@ def load_data():
             st.sidebar.warning("Provide a RAW URL or switch source.")
             return _load_sample()
 
-    else:  # Bundled file
+    # Option 3: bundled file in the repo
+    else:  # "Bundled file"
         try:
             df = _load_csv_from_path(AUTO_CSV_PATH)
             st.sidebar.success(f"Loaded bundled file: {AUTO_CSV_PATH}")
@@ -114,12 +133,6 @@ def load_data():
         except Exception as e:
             st.sidebar.error(f"Bundled file not found at {AUTO_CSV_PATH}: {e}")
             return _load_sample()
-    else:
-        if default_df is not None:
-            return default_df
-        else:
-            return _load_sample()
-
 
 def coerce_numeric(df: pd.DataFrame) -> pd.DataFrame:
     for c in NUMERIC_COLS_DEFAULT:
