@@ -648,7 +648,7 @@ with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=Fals
         """
     )
 
-st.caption("© Your Company — AI selector for astronaut/military textiles")("© Your Company — AI selector for astronaut/military textiles")
+st.caption("© Your Company — AI selector for astronaut/military textiles")
 
  
 # st.set_page_config(page_title="Space Textile Selector", layout="wide")
