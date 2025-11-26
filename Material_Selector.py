@@ -114,7 +114,7 @@ def load_data():
         except Exception as e:
             st.sidebar.error(f"Bundled file not found at {AUTO_CSV_PATH}: {e}")
             return _load_sample()
-    else:
+     else:
         if default_df is not None:
             return default_df
         else:
