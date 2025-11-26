@@ -890,61 +890,61 @@ st.caption("© Your Company — AI selector for astronaut/military textiles")
 #         st.download_button("Download ranked results (CSV)", data=out.getvalue(), file_name="ranked_materials.csv", mime="text/csv")
     
 
-# with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=False):
-#     st.markdown(
-#         """
-#         ### Properties (with typical sources)
-#         **Identity & categorization**
-#         - **Material_ID** – unique row ID. 
-#         - **Material_Name** – readable name (e.g., “Kevlar 29 fabric”).  
-#           *Source:* Vendor datasheets / standards names.
-#         - **Material_Class** – category (Textile, Film, Ceramic Textile, Carbon Textile, Insulation, Polymer/Insulation).  
-#           *Source:* Vendor literature; textile engineering handbooks.
-#         - **Base_Fiber** – base material (Kevlar 29, Nomex 410, E-glass, PET, …).  
-#           *Source:* Vendor datasheets (DuPont, 3M, AGY, DSM, Toyobo, Kuraray, etc.).
-#         - **Coating_Type** – surface treatment (e.g., Aluminized, PTFE).  
-#           *Source:* Vendor process notes; MLI blanket specs (NASA/ESA).
-#         - **Weave_Pattern** – Plain, Twill, Satin, Basket, Ripstop, UD, Nonwoven, Paper, Knitted, Film.  
-#           *Source:* Textile handbooks; vendor fabric catalogs.
-#         - **Test_Environment** – Air or Vacuum (where data applies).  
-#           *Source:* Test reports; NASA/ESA materials & processes (M&P) docs.
+with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=False):
+    st.markdown(
+        """
+        ### Properties (with typical sources)
+        **Identity & categorization**
+        - **Material_ID** – unique row ID. 
+        - **Material_Name** – readable name (e.g., “Kevlar 29 fabric”).  
+          *Source:* Vendor datasheets / standards names.
+        - **Material_Class** – category (Textile, Film, Ceramic Textile, Carbon Textile, Insulation, Polymer/Insulation).  
+          *Source:* Vendor literature; textile engineering handbooks.
+        - **Base_Fiber** – base material (Kevlar 29, Nomex 410, E-glass, PET, …).  
+          *Source:* Vendor datasheets (DuPont, 3M, AGY, DSM, Toyobo, Kuraray, etc.).
+        - **Coating_Type** – surface treatment (e.g., Aluminized, PTFE).  
+          *Source:* Vendor process notes; MLI blanket specs (NASA/ESA).
+        - **Weave_Pattern** – Plain, Twill, Satin, Basket, Ripstop, UD, Nonwoven, Paper, Knitted, Film.  
+          *Source:* Textile handbooks; vendor fabric catalogs.
+        - **Test_Environment** – Air or Vacuum (where data applies).  
+          *Source:* Test reports; NASA/ESA materials & processes (M&P) docs.
 
-#         **Geometric / physical**
-#         - **Areal_Density_gm2** – mass/area (g/m²).  
-#           *Source:* Vendor datasheets; **ASTM D3776 / ISO 3801**.
-#         - **Thickness_mm** – thickness (mm).  
-#           *Source:* Vendor datasheets; **ASTM D1777** (textiles); film gauges from datasheets.
-#         - **Bulk_Density_kgm3** – material density (kg/m³).  
-#           *Source:* Vendor datasheets; **MatWeb**; materials handbooks.
+        **Geometric / physical**
+        - **Areal_Density_gm2** – mass/area (g/m²).  
+          *Source:* Vendor datasheets; **ASTM D3776 / ISO 3801**.
+        - **Thickness_mm** – thickness (mm).  
+          *Source:* Vendor datasheets; **ASTM D1777** (textiles); film gauges from datasheets.
+        - **Bulk_Density_kgm3** – material density (kg/m³).  
+          *Source:* Vendor datasheets; **MatWeb**; materials handbooks.
 
-#         **Thermal**
-#         - **Thermal_Conductivity_Through_WmK** – through-thickness k (W/m·K).  
-#           *Source:* Vendor/literature; **Thermtest knowledge base**; NASA thermal reports; polymer datasheets (e.g., Kapton, PET, PTFE); **3M Nextel** data.
-#         - **Thermal_Conductivity_InPlane_WmK** – in-plane k (anisotropic materials).  
-#           *Source:* Carbon fiber (PAN/pitch) vendor data; composites literature (K1100-class, PAN CF).
-#         - **k_-100C_WmK**, **k_0C_WmK**, **k_23C_WmK**, **k_150C_WmK**, **k_200C_WmK** – k at specific temperatures.  
-#           *Source:* Temperature-dependent curves in vendor datasheets; **NIST**/NASA publications for aramids & films; MLI effective k from NASA.
+        **Thermal**
+        - **Thermal_Conductivity_Through_WmK** – through-thickness k (W/m·K).  
+          *Source:* Vendor/literature; **Thermtest knowledge base**; NASA thermal reports; polymer datasheets (e.g., Kapton, PET, PTFE); **3M Nextel** data.
+        - **Thermal_Conductivity_InPlane_WmK** – in-plane k (anisotropic materials).  
+          *Source:* Carbon fiber (PAN/pitch) vendor data; composites literature (K1100-class, PAN CF).
+        - **k_-100C_WmK**, **k_0C_WmK**, **k_23C_WmK**, **k_150C_WmK**, **k_200C_WmK** – k at specific temperatures.  
+          *Source:* Temperature-dependent curves in vendor datasheets; **NIST**/NASA publications for aramids & films; MLI effective k from NASA.
 
-#         **Mechanical**
-#         - **Tensile_Strength_MPa** – tensile strength (MPa).  
-#           *Source:* Vendor datasheets; **ASTM D5035/D5034** (textile tensile), **ASTM D3822** (single fibers); film standards.
-#         - **Tensile_Modulus_GPa** – modulus (GPa).  
-#           *Source:* Vendor datasheets; composites handbooks; ASTM methods above.
+        **Mechanical**
+        - **Tensile_Strength_MPa** – tensile strength (MPa).  
+          *Source:* Vendor datasheets; **ASTM D5035/D5034** (textile tensile), **ASTM D3822** (single fibers); film standards.
+        - **Tensile_Modulus_GPa** – modulus (GPa).  
+          *Source:* Vendor datasheets; composites handbooks; ASTM methods above.
 
-#         **Stability / compliance**
-#         - **Outgassing_TML_percent** – Total Mass Loss % (NASA outgassing).  
-#           *Source:* **NASA GSFC Outgassing Database**; **ASTM E595** test method.
-#         - **Outgassing_CVCM_percent** – Condensables %.  
-#           *Source:* **NASA GSFC Outgassing Database**; **ASTM E595**.
-#         - **Flammability_Rating** – Pass / Fail / Self-extinguishing / Non-flammable.  
-#           *Source:* **NASA-STD-6001 (flammability)**; **UL 94** for many polymers/films.
-#         - **Max_Service_Temp_C** – recommended max service temperature (°C).  
-#           *Source:* Vendor datasheets (DuPont Nomex/Kevlar/Kapton; 3M Nextel; Aspen Aerogels; DSM Dyneema; Toyobo Zylon; Kuraray Vectran).
+        **Stability / compliance**
+        - **Outgassing_TML_percent** – Total Mass Loss % (NASA outgassing).  
+          *Source:* **NASA GSFC Outgassing Database**; **ASTM E595** test method.
+        - **Outgassing_CVCM_percent** – Condensables %.  
+          *Source:* **NASA GSFC Outgassing Database**; **ASTM E595**.
+        - **Flammability_Rating** – Pass / Fail / Self-extinguishing / Non-flammable.  
+          *Source:* **NASA-STD-6001 (flammability)**; **UL 94** for many polymers/films.
+        - **Max_Service_Temp_C** – recommended max service temperature (°C).  
+          *Source:* Vendor datasheets (DuPont Nomex/Kevlar/Kapton; 3M Nextel; Aspen Aerogels; DSM Dyneema; Toyobo Zylon; Kuraray Vectran).
 
-#         ### For each selected property, you can adjust in the sidebar
-#         - **Target** – quantitative goal.
-#         - **Weight** – importance to your ranking (0–5). Higher weight = stronger influence on rank.
-#         - **Sense** – **minimize** or **maximize** (direction of optimization).
+        ### For each selected property, you can adjust in the sidebar
+        - **Target** – quantitative goal.
+        - **Weight** – importance to your ranking (0–5). Higher weight = stronger influence on rank.
+        - **Sense** – **minimize** or **maximize** (direction of optimization).
 
-#         """
+        """
 # )
