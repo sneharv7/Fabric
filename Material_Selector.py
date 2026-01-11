@@ -825,7 +825,7 @@ st.caption("© Vernell — Digital selector for astronaut/military textile combi
 with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=False):
     st.markdown(
         """
-        ### Properties (with typical sources)
+        ### Properties (with sources)
         **Identity & categorization**
         - **Material_ID** – unique row ID. 
         - **Material_Name** – readable name (e.g., “Kevlar 29 fabric”).  
