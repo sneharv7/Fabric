@@ -292,7 +292,7 @@ if st.sidebar.button("Generate ranked list", type="primary"):
 # Stack builder (beta)
 # -----------------------------
 st.markdown("---")
-st.header("🧱 Stack builder (beta)")
+st.header("🧱 Stack builder")
 st.caption("Combine multiple layers (outside → inside) and compute effective properties, then rank stacks with the same targets/weights.")
 
 # Helpers for stack calculations
