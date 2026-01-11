@@ -11,6 +11,12 @@ st.set_page_config(page_title="Space Textile Selector", layout="wide")
 COMPACT_DEFAULT = True  # good for mobile
 AUTO_CSV_PATH = "data/space_textile_dataset_AI_ready_ULTRA_v3.csv"  # path inside your GitHub repo  # auto-load if present
 
+mode = st.radio(
+    "Select analysis mode",
+    ["🔹 Rank individual materials", "🧱 Build & rank layer stacks"],
+    horizontal=True
+)
+
 SCHEMA_ORDER = [
     "Material_ID","Material_Name","Material_Class","Base_Fiber","Coating_Type","Weave_Pattern",
     "Test_Environment","Areal_Density_gm2","Thickness_mm",
@@ -574,7 +580,7 @@ if not st.session_state["stacks_catalog"].empty and props:
     st.dataframe(stacks_ranked[show_cols].head(100), use_container_width=True)
 
 
-st.caption("© Your Company — AI selector for astronaut/military textiles")
+st.caption("© Vernell — Digital selector for astronaut/military textile combinations")
 
  
 # st.set_page_config(page_title="Space Textile Selector", layout="wide")
