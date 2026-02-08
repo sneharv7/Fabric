@@ -12,7 +12,7 @@ st.set_page_config(page_title="Space Textile Selector", layout="wide")
 # -----------------------------
 # Defaults & constants
 # -----------------------------
-COMPACT_DEFAULT = True  # good for mobile # path inside your GitHub repo  # auto-load if present
+COMPACT_DEFAULT = True  # good for mobile # path inside GitHub repo  # auto-load if present
 
 SCHEMA_ORDER = [
     "Material_ID","Material_Name","Material_Class","Base_Fiber","Coating_Type","Weave_Pattern",
@@ -345,4 +345,4 @@ with st.expander("📘 Tips: Properties, Sources & How to Adjust", expanded=Fals
         """
     )
 
-st.caption("© Your Company — AI selector for astronaut/military textiles")("© Your Company — AI selector for astronaut/military textiles")
+st.caption("© Vernell — AI selector for astronaut/military textiles")
